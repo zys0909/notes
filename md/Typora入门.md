@@ -59,6 +59,8 @@ Ctrl+Shift+M    公式块 Ctrl+Shift+Q    引用
 
 在markdown中，段落由多个空格分隔。在Typora中，只需回车即可创建新段落。
 
+`space+space+shift+enter`
+
 ### 标题级别
 
 \# 一级标题 快捷键为 Ctrl + 1
