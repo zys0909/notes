@@ -32,5 +32,12 @@
 - 启动一个已安装的应用	`adb shell am  start  <应用id/Launcher的Activity全路径>`
 
 - 查看正在运行的 Services	`adb shell dumpsys activity services [<packagename>]`
+
 - 查看应用详细信息	`adb shell dumpsys package <packagename>`
+
+- 查看CPU信息	`adb shell cat /proc/cpuinfo`
+
+- 查看CPU架构	`adb shell getprop ro.product.cpu.abi`
+
+- 查看设备列表	`adb devices`
 
