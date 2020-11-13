@@ -31,3 +31,7 @@
     ` sudo rm -fr ~/Library/Application\ Support/Java`
     `sudo rm -rf /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk`
 
+7，查看cpu型号
+
+​		`sysctl machdep.cpu.brand_string`
+

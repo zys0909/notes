@@ -54,3 +54,10 @@ fun RecyclerView.setOnItemClickListener(listener: (View, Int) -> Unit) {
     })
 }
 ```
+
+### 2.控件按压效果
+
+```xml
+android:foreground="?attr/selectableItemBackgroundBorderless"
+```
+
