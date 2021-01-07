@@ -4,14 +4,14 @@
 
 # Typora入门
 
-## 简介
+### 简介
 
 Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这也是与其他Markdown编辑器最显著的区别。即时渲染使得你写Markdown就想是写Word文档一样流畅自如，不像其他编辑器的有编辑栏和显示栏。
 
 - Typora删除了预览窗口，以及所有其他不必要的干扰。取而代之的是实时预览。
 - Markdown的语法因不同的解析器或编辑器而异，Typora使用的是[GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)。
 
-## Markdown介绍
+### Markdown介绍
 
 Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
 
@@ -21,7 +21,7 @@ Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多�
 
 Markdown 编写的文档后缀为 `.md`, `.markdown`。
 
-## 常用快捷键
+### 常用快捷键
 
 - 加粗： `Ctrl + B`
 - 标题： `Ctrl + H`
@@ -52,8 +52,6 @@ Ctrl+Shift+M    公式块 Ctrl+Shift+Q    引用
 注：一些实体符号需要在实体符号之前加”\”才能够显示
 ```
 ~~~
-
-## 块元素
 
 ### 换行符
 
@@ -136,7 +134,7 @@ $$
 
 ### 脚注
 
-这个例子的脚注为[[1\]](https://www.cnblogs.com/hider/p/11614688.html#fn1)。
+这个例子的脚注为[[1]](https://www.cnblogs.com/hider/p/11614688.html#fn1)。
 
 注意：该例子脚注标识是1，脚注标识可以为字母数字下划线，但是暂不支持中文。脚注内容可为任意字符，包括中文。
 
@@ -149,6 +147,18 @@ $$
 ### 目录（TOC）
 
 输入 `[ toc ]` 然后回车，即可创建一个“目录”。TOC从文档中提取所有标题，其内容将自动更新。
+
+### 超链接 
+
+输入`[链接名称](链接地址)`  
+
+例如 `[百度](www.baidu.com)` 显示效果 [百度](www.baidu.com)
+
+- 发现gitlab上仅标题有效果，未找到解决方法  
+
+### 删除线
+
+`~~删除线~~`		效果：~~删除线~~
 
 
 
