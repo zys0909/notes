@@ -7,7 +7,7 @@
 ​	`defaults write com.apple.dock springboard-columns -int 10`
    重信打开启动台 `killall Dock`
 
-##### 2. 显示隐藏文件  
+##### 2. 显示隐藏文件
 
   `defaults write com.apple.finder AppleShowAllFiles YES`
 
@@ -15,9 +15,9 @@
 
 4. 设置环境变量
 
-   ``` c++
+   ``` shell
         open .bash_profile
-        export ANDROID_SDK_ROOT=/Users/zoey/Library/Android/sdk
+        export ANDROID_SDK_ROOT=/Users/用户名/Library/Android/sdk
         PATH=$PATH:$ANDROID_SDK_ROOT:.
         source .bash_profile
    ```
